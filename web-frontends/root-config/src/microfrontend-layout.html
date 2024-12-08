@@ -1,0 +1,57 @@
+<single-spa-router>
+  <!--
+
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+  -->
+
+  <!-- Example layouts you might find helpful:
+
+  
+  <route path="settings">
+    <application name="@org/settings"></application>
+  </route>
+
+  -->
+
+  <nav>
+    <application name="@GreenStore/common"></application>
+  </nav>
+
+  <main>
+    <route default>
+      <application name="@GreenStore/home"></application>
+    </route>
+    <route path="categories">
+      <application name="@GreenStore/category"></application>
+    </route>
+    <route path="products">
+      <application name="@GreenStore/category"></application>
+    </route>
+    <route path="products/:productId">
+      <application name="@GreenStore/category"></application>
+    </route>
+    <route path="carts">
+      <application name="@GreenStore/cart"></application>
+    </route>
+    <route path="carts/:cartId">
+      <application name="@GreenStore/cart"></application>
+    </route>
+    <route path="admin">
+      <application name="@GreenStore/admin"></application>
+    </route>
+    <route path="account">
+      <application name="@GreenStore/user"></application>
+    </route>
+    <route path="login">
+      <application name="@GreenStore/auth"></application>
+    </route>
+    <route path="signup">
+      <application name="@GreenStore/auth"></application>
+    </route>
+    <route path="account">
+      <application name="@GreenStore/user"></application>
+  </main>
+
+</single-spa-router>

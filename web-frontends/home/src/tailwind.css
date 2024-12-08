@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --darkest-green: #143601;
+  --darker-green: #1A4301;
+  --dark-green: #245501;
+  --light-green: #538D22;
+  --lighter-green: #73A942;
+  --lightest-green: #AAD576;
+  --black: #040B01;
+  --light-black: #242A21;
+  --dark-grey: #62675F;
+  --grey: #81857E;
+  --light-grey: #BFC2BD;
+  --lighter-grey: #DEE0DC;
+  --dark-white: #EEEFEC;
+  --white: #FDFEFB;
+}
+
+body {
+    font-family: inter, sans-serif;
+}
+
+.title {
+  font-family: 'Contrail One', cursive;
+}
+
+.bg-darkest-green {
+    background-color: var(--darkest-green);
+}
+
+.bg-darker-green {
+    background-color: var(--darker-green);
+}
+
+.bg-dark-green {
+    background-color: var(--dark-green);
+}
+
+.bg-light-green {
+    background-color: var(--light-green);
+}
+
+.bg-lighter-green {
+    background-color: var(--lighter-green);
+}
+
+.bg-lightest-green {
+    background-color: var(--lightest-green);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.bg-light-black {
+    background-color: var(--light-black);
+}
+
+.bg-dark-grey {
+    background-color: var(--dark-grey);
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.bg-light-grey {
+    background-color: var(--light-grey);
+}
+
+.bg-lighter-grey {
+    background-color: var(--lighter-grey);
+}
+
+.bg-dark-white {
+    background-color: var(--dark-white);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+/* Text colors */
+
+.text-darkest-green {
+    color: var(--darkest-green);
+}
+
+.text-darker-green {
+    color: var(--darker-green);
+}
+
+.text-dark-green {
+    color: var(--dark-green);
+}
+
+.text-light-green {
+    color: var(--light-green);
+}
+
+.text-lighter-green {
+    color: var(--lighter-green);
+}
+
+.text-lightest-green {
+    color: var(--lightest-green);
+}
+
+.text-black {
+    color: var(--black);
+}
+
+.text-light-black {
+    color: var(--light-black);
+}
+
+.text-dark-grey {
+    color: var(--dark-grey);
+}
+
+.text-grey {
+    color: var(--grey);
+}
+
+.text-light-grey {
+    color: var(--light-grey);
+}
+
+.text-lighter-grey {
+    color: var(--lighter-grey);
+}
+
+.text-dark-white {
+    color: var(--dark-white);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.text-red {
+    color: darkred;
+}
+
+.top-hero-section {
+    top: 117px;
+}

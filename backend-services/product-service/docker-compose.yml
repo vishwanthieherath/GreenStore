@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+
+  product-service-db:
+    image: 'postgres'
+    ports:
+      - "5432:5432"
+    restart: always
+    environment:
+      POSTGRES_DB: product_service
+      POSTGRES_PASSWORD: admin
